@@ -2839,6 +2839,26 @@ return {
 			CameraClearFlags = {
 				type = "class",
 				childs = {
+					Skybox = {
+						type = "value",
+						valuetype = "UnityEngine.CameraClearFlags",
+					},
+					Color = {
+						type = "value",
+						valuetype = "UnityEngine.CameraClearFlags",
+					},
+					SolidColor = {
+						type = "value",
+						valuetype = "UnityEngine.CameraClearFlags",
+					},
+					Depth = {
+						type = "value",
+						valuetype = "UnityEngine.CameraClearFlags",
+					},
+					Nothing = {
+						type = "value",
+						valuetype = "UnityEngine.CameraClearFlags",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -3165,6 +3185,22 @@ return {
 			LightType = {
 				type = "class",
 				childs = {
+					Spot = {
+						type = "value",
+						valuetype = "UnityEngine.LightType",
+					},
+					Directional = {
+						type = "value",
+						valuetype = "UnityEngine.LightType",
+					},
+					Point = {
+						type = "value",
+						valuetype = "UnityEngine.LightType",
+					},
+					Area = {
+						type = "value",
+						valuetype = "UnityEngine.LightType",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -3562,6 +3598,1290 @@ return {
 			KeyCode = {
 				type = "class",
 				childs = {
+					None = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Backspace = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Delete = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Tab = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Clear = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Return = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Pause = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Escape = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Space = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Keypad9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadPeriod = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadDivide = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadMultiply = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadMinus = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadPlus = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadEnter = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					KeypadEquals = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					UpArrow = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					DownArrow = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightArrow = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftArrow = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Insert = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Home = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					End = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					PageUp = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					PageDown = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Alpha9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Exclaim = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					DoubleQuote = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Hash = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Dollar = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Ampersand = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Quote = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftParen = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightParen = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Asterisk = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Plus = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Comma = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Minus = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Period = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Slash = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Colon = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Semicolon = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Less = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Equals = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Greater = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Question = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					At = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftBracket = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Backslash = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightBracket = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Caret = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Underscore = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					BackQuote = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					A = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					B = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					C = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					D = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					E = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					F = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					G = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					H = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					I = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					J = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					K = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					L = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					M = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					N = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					O = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					P = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Q = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					R = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					S = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					T = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					U = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					V = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					W = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					X = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Y = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Z = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Numlock = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					CapsLock = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					ScrollLock = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightShift = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftShift = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightControl = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftControl = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightAlt = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftAlt = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftCommand = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftApple = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					LeftWindows = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightCommand = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightApple = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					RightWindows = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					AltGr = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Help = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Print = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					SysReq = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Break = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Menu = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Mouse6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					JoystickButton19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick1Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick2Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick3Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick4Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick5Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick6Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick7Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button0 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button1 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button2 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button3 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button4 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button5 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button6 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button7 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button8 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button9 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button10 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button11 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button12 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button13 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button14 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button15 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button16 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button17 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button18 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
+					Joystick8Button19 = {
+						type = "value",
+						valuetype = "UnityEngine.KeyCode",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -3611,6 +4931,14 @@ return {
 			Space = {
 				type = "class",
 				childs = {
+					World = {
+						type = "value",
+						valuetype = "UnityEngine.Space",
+					},
+					Self = {
+						type = "value",
+						valuetype = "UnityEngine.Space",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -4091,6 +5419,14 @@ return {
 			AnimationBlendMode = {
 				type = "class",
 				childs = {
+					Blend = {
+						type = "value",
+						valuetype = "UnityEngine.AnimationBlendMode",
+					},
+					Additive = {
+						type = "value",
+						valuetype = "UnityEngine.AnimationBlendMode",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -4099,6 +5435,14 @@ return {
 			QueueMode = {
 				type = "class",
 				childs = {
+					CompleteOthers = {
+						type = "value",
+						valuetype = "UnityEngine.QueueMode",
+					},
+					PlayNow = {
+						type = "value",
+						valuetype = "UnityEngine.QueueMode",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -4107,6 +5451,14 @@ return {
 			PlayMode = {
 				type = "class",
 				childs = {
+					StopSameLayer = {
+						type = "value",
+						valuetype = "UnityEngine.PlayMode",
+					},
+					StopAll = {
+						type = "value",
+						valuetype = "UnityEngine.PlayMode",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -4115,6 +5467,30 @@ return {
 			WrapMode = {
 				type = "class",
 				childs = {
+					Once = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
+					Loop = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
+					PingPong = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
+					Default = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
+					ClampForever = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
+					Clamp = {
+						type = "value",
+						valuetype = "UnityEngine.WrapMode",
+					},
 					IntToEnum = {
 						type = "method",
 					},
@@ -4123,6 +5499,18 @@ return {
 			BlendWeights = {
 				type = "class",
 				childs = {
+					OneBone = {
+						type = "value",
+						valuetype = "UnityEngine.BlendWeights",
+					},
+					TwoBones = {
+						type = "value",
+						valuetype = "UnityEngine.BlendWeights",
+					},
+					FourBones = {
+						type = "value",
+						valuetype = "UnityEngine.BlendWeights",
+					},
 					IntToEnum = {
 						type = "method",
 					},
