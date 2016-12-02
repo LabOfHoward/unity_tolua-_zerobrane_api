@@ -273,7 +273,7 @@ public static class ToLuaMenuEx
 
         foreach (var f in ToLuaExport.type.GetFields(BindingFlags.GetField | BindingFlags.Public | BindingFlags.Static))
         {
-            if (!ToLuaExport.IsObsolete(f))
+            if (ToLuaExport.IsObsolete(f))
                 continue;
             api.AddValue(f.Name, bt.name);
         }
