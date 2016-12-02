@@ -1,7 +1,7 @@
 # unity_tolua-_zerobrane_api
 
 
-unity下用tolua#做lua开发的时候选用了zeroBraneStudio。zeroBraneStudio原生的自动补全功能非常弱，这里通过加api文件扩展了自动补全功能。
+一个tolua#的wrap类自动导成zerobrane的自动提示文件的工具。ZeroBraneStudio是一款调试非常方便的lua编辑器。这里通过给ZeroBraneStudio加api文件的方法增强了自动补全功能。
 
 ## 直接用:
   1.修改ZeroBraneStudio\interpreters\luabase.lua的第17行:“api = {"baselib",'gameApi','gameApiGen'},--这里加下游戏相关的api”  
