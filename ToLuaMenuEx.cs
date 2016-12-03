@@ -289,13 +289,8 @@ public static class ToLuaMenuEx
         //计算lua中的全局名和继承者
         string name = bt.name;
         string inherits = null;
-        if (bt.IsStatic)
-            name = bt.libName;
-        else 
-        {
-            if (bt.baseType != null && !bt.baseType.IsGenericType)
+        if (bt.baseType != null && !bt.baseType.IsGenericType)
                 inherits = ToLuaExport.GetBaseTypeStr(bt.baseType);
-        }
         
         //创建api类
         var api = GetClassApi(name, inherits);
@@ -381,7 +376,7 @@ public static class ToLuaMenuEx
         else if (t == typeof(Ray)) { returns = "Ray"; return; }
         else if (t == typeof(Bounds)) { returns = "Bounds"; return; }
         else if (t == typeof(LayerMask)) { returns = "LayerMask"; return; }
-        
+        else if(t.IsSubclassOf(typeof(UnityEngine.Events.UnityEvent))) { returns = valueType = "UnityEngine.Events.UnityEvent"; return; }
         
         //如果是集合类，那么转下
         if (t.IsArray) { returns = valueType = "System.Array"; return; }
